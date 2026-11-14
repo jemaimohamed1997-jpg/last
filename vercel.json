@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/mouvement",
+      "destination": "/api/movement"
+    },
+    {
+      "source": "/api/mouvements",
+      "destination": "/api/movement"
+    },
+    {
+      "source": "/api/movements",
+      "destination": "/api/movement"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
